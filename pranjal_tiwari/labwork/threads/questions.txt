@@ -1,0 +1,11 @@
+1 WAP to create two threads 
+ones print even and another prints odd
+
+2 WAP that create 3 threads
+table of 7,11,3
+use sleep method
+
+3 WAP that implements the following method of threads
+ getpriority
+ join
+ getname & setname
