@@ -1,10 +1,10 @@
 // WAP to find out factorial of a number through recursion.
 
 
-package pranjal_tiwari.javafile;
+package javafile;
 import java.util.*;
 
-public class ques1 {
+public class ques_2 {
     public static int fact(int n) {
         if(n==1){
             return 1;

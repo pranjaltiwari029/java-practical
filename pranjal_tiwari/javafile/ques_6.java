@@ -10,10 +10,10 @@ class overload{
     }
 }
 
- class ques6 {
+ class ques_6 {
     public static void main(String[] args) {
         overload obj=new overload();
-        overload obj1 =new overload(76);
+        overload obj1 =new overload(120);
     }
     
 }

@@ -1,10 +1,10 @@
 // WAP to print Fibonacci series.
 
 
-package pranjal_tiwari.javafile;
+package javafile;
 import java.util.*;
 
-public class ques2 {
+public class ques_4 {
     public static int fib(int n) {
         if(n==1 ){
             return 0;
@@ -22,7 +22,7 @@ public class ques2 {
         System.out.print("enter a number = ");
         int num=sc.nextInt();
         for(int i=1;i<=num+1;i++){
-            System.out.println(fib(i));
+            System.out.print(fib(i)+" ");
         }
 
         

@@ -1,4 +1,4 @@
-// package pranjal_tiwari.javafile;
+package javafile;
 
 class counter{
     static int count;

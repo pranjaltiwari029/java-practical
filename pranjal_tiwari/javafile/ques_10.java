@@ -1,4 +1,4 @@
-// package pranjal_tiwari.javafile;
+//  package javafile;
 
 class Box {
     int height, width, depth;
@@ -27,7 +27,7 @@ class Box_new extends Box{
     }
 }
 
-public class ques11 {
+public class ques_10 {
     public static void main(String[] args) {
         Box obj1 = new Box();
         Box obj2 = new Box(13,9,11);

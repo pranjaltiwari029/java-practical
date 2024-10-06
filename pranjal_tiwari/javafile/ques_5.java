@@ -15,32 +15,30 @@ class Accounts {
     }
 
     void withdrawal(int amount) {
-        if (amount > balance) {
-            System.out.println("Insufficient Balance");
-        } else {
+        
             balance -= amount;
-            System.out.println("Successfull withdrawl");
-        }
+            System.out.println("Amount successfully withdrawled, now the current balance is = "+ balance);
+        
     }
 
     void deposit(int amount) {
         balance += amount;
-        System.out.println("Added Successfully");
+        System.out.println("Amount deposited successfully , now the current balance is = "+balance);
     }
 
     void display() {
-        System.out.println("Account no: " + account_number);
-        System.out.println("Account holder name: " + name);
-        System.out.println("Account type: " + account_name);
-        System.out.println("Balance: " + balance);
+        System.out.println("Account no = " + account_number);
+        System.out.println("Account holder name = " + name);
+        System.out.println("Account type = " + account_name);
+        System.out.println("Balance = " + balance);
     }
 }
 
-public class ques5 {
+public class ques_5 {
     public static void main(String[] args) {
-        Accounts obj = new Accounts(076, "Pranjal", "Current", 120000);
-        obj.withdrawal(12000);
-        obj.deposit(4000);
+        Accounts obj = new Accounts(120, "Pranjal Tiwari", "Saving Account", 46000);
+        obj.withdrawal(7600);
+        obj.deposit(8800);
         obj.display();
 
     }

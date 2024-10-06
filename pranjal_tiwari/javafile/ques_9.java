@@ -11,13 +11,13 @@ class overload{
 
 class override extends overload{
     public void show(){
-        System.out.println("----------------------");
+       
         System.out.println("implementing overriding function in java" );
         
     }
 }
 
-public class ques9 {
+public class ques_9 {
     public static void main(String[] args) {
         overload obj=new overload();
         obj.show();

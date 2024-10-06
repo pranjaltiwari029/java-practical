@@ -56,7 +56,7 @@ class square implements shape{
     }
 }
 
-public class ques15 {
+public class ques_12 {
     public static void main(String[] args) {
         circle obj1 = new circle(3.14, 9);
         obj1.print();

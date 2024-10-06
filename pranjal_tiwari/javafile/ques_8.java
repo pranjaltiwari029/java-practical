@@ -1,6 +1,6 @@
-package pranjal_tiwari.javafile;
+package javafile;
 
-public class ques8 {
+public class ques_8 {
     
         public static void call_by_value(int number){
             number = number+1;  // increment variable by 1
@@ -8,7 +8,7 @@ public class ques8 {
         }
         
         int number=15;
-        public static void call_by_reference(ques8 obj){
+        public static void call_by_reference(ques_8 obj){
             obj.number = obj.number+1;  // increment variable by 1
             System.out.println("value in method: "+obj.number);
         }
@@ -18,7 +18,7 @@ public class ques8 {
             call_by_value(number);
             System.out.println("value after method call: "+number);
 
-            ques8 obj=new ques8(); 
+            ques_8 obj=new ques_8(); 
         
             System.out.println("value before method call: "+obj.number);
             call_by_reference(obj); 
